@@ -53,7 +53,7 @@ namespace MonteCarloSimulation
                 double[] results = new double[tot_cnt];
                 for (int i = 0; i < tot_cnt; i++) results[i] = pricers[i].Price();
 
-                Console.WriteLine("Mean = " + Utils.Statistics.Mean(results));
+                Console.WriteLine("Price (Mean) = " + Utils.Statistics.Mean(results));
                 Console.WriteLine("Standard Error = " + Utils.Statistics.StandardDeviation(results));
 
                 Console.WriteLine("Press ENTER to exit...");
