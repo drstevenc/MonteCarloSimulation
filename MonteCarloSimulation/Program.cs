@@ -60,7 +60,6 @@ namespace MonteCarloSimulation
                 Console.ReadLine();
 
                 Form graphics = new SimulationGraphics(outPaths);
-                //graphics.Pl
                 Application.EnableVisualStyles();
                 Application.Run(graphics);
 
